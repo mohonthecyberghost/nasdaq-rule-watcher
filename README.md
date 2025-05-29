@@ -1,26 +1,37 @@
 # Nasdaq Rule Filings Monitor
 
-This script monitors the Nasdaq rule filings page and sends new entries to a Discord channel.
+A Python script that monitors Nasdaq rule filings and sends notifications to Discord when new entries are found.
+
+## Features
+
+- Monitors the Nasdaq rule filings page for new entries
+- Sends notifications to Discord with detailed information
+- Includes timestamps for each notification
+- Configurable check intervals
+- Persistent tracking of seen entries
+- Comprehensive logging system
 
 ## Setup
 
 1. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. Create a `.env` file with your Discord webhook URL:
-```
-DISCORD_WEBHOOK_URL=your_discord_webhook_url_here
-```
+2. Create a `.env` file in the project directory with the following variables:
+   ```
+   # Discord webhook URL for notifications
+   DISCORD_WEBHOOK_URL=your_discord_webhook_url_here
 
-To get a Discord webhook URL:
-1. Go to your Discord server
-2. Right-click on the channel where you want to receive notifications
-3. Select "Edit Channel"
-4. Go to "Integrations"
-5. Click "Create Webhook"
-6. Copy the webhook URL
+   # Nasdaq rule filings URL
+   NASDAQ_URL=https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+
+   # Timer settings (in seconds)
+   CHECK_INTERVAL=1
+   ERROR_RETRY_INTERVAL=60
+   ```
+
+   Replace `your_discord_webhook_url_here` with your actual Discord webhook URL.
 
 ## Usage
 
@@ -30,15 +41,32 @@ python nasdaq_scraper.py
 ```
 
 The script will:
-- Check for new rule filings every 5 minutes
-- Send new entries to your Discord channel
-- Keep track of seen entries to avoid duplicates
-- Automatically retry on errors
+- Check for new rule filings every second (configurable via CHECK_INTERVAL)
+- Send notifications to Discord for any new entries
+- Include timestamps in UTC format for each notification
+- Log all activities to both console and log files
+- Retry after errors with a 60-second delay (configurable via ERROR_RETRY_INTERVAL)
 
-## Features
+## Discord Message Format
 
-- Monitors Nasdaq rule filings page
-- Sends notifications to Discord
-- Prevents duplicate notifications
-- Error handling and automatic retries
-- Persistent storage of seen entries
+Each notification includes:
+- Rule Filing ID
+- Description
+- Status
+- SEC Notice status
+- Comment Period (if available)
+- Notice Date (if available)
+- Timestamp in UTC (e.g., 2025-05-27T11:33:42.804064+00:00)
+
+## Logging
+
+Logs are stored in the `logs` directory:
+- Main log file: `logs/nasdaq_scraper.log`
+- Log rotation: 5MB per file, keeping 3 backup files
+- Log format includes timestamp, level, and message
+
+## Error Handling
+
+- The script handles network errors and retries automatically
+- Failed Discord notifications are logged
+- Corrupted or missing seen entries file is handled gracefully
