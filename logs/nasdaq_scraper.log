@@ -1,0 +1,984 @@
+2025-05-30 00:01:38 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:01:38 - WARNING - seen_entries.json is corrupted or empty. Starting with empty list.
+2025-05-30 00:01:38 - INFO - Loaded 0 previously seen entries
+2025-05-30 00:01:44 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:06:47 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:09:05 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:09:05 - INFO - Loaded 82 previously seen entries
+2025-05-30 00:09:10 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:09:27 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:09:27 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:09:31 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:10:33 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:10:33 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:10:37 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:12:56 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:12:56 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:12:58 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:13:51 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:13:51 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:13:56 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:16:08 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:16:08 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:16:10 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:17:27 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:17:27 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:17:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:17:31 - INFO - Successfully scraped 0 entries from Nasdaq
+2025-05-30 00:18:40 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:18:40 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:18:40 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:18:44 - ERROR - Could not find the rule filings table
+2025-05-30 00:20:19 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:20:19 - INFO - Loaded 81 previously seen entries
+2025-05-30 00:20:19 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:20:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:20:24 - INFO - New entry found: SR-NASDAQ-2025-042
+2025-05-30 00:20:25 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-042
+2025-05-30 00:20:25 - INFO - New entry found: SR-NASDAQ-2025-041
+2025-05-30 00:20:25 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-041
+2025-05-30 00:20:25 - INFO - New entry found: SR-NASDAQ-2025-040
+2025-05-30 00:20:26 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-040
+2025-05-30 00:20:26 - INFO - New entry found: SR-NASDAQ-2025-038
+2025-05-30 00:20:27 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-038
+2025-05-30 00:20:27 - INFO - New entry found: SR-NASDAQ-2025-037
+2025-05-30 00:20:27 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-037
+2025-05-30 00:20:27 - INFO - New entry found: SR-NASDAQ-2025-036
+2025-05-30 00:20:28 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-036
+2025-05-30 00:20:28 - INFO - New entry found: SR-NASDAQ-2025-035
+2025-05-30 00:20:29 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-035
+2025-05-30 00:20:29 - INFO - New entry found: SR-NASDAQ-2025-034
+2025-05-30 00:20:30 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-034
+2025-05-30 00:20:30 - INFO - New entry found: SR-NASDAQ-2025-033
+2025-05-30 00:20:30 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-033
+2025-05-30 00:20:30 - INFO - New entry found: SR-NASDAQ-2025-032
+2025-05-30 00:20:31 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-032
+2025-05-30 00:20:31 - INFO - New entry found: SR-NASDAQ-2025-031
+2025-05-30 00:20:33 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-031
+2025-05-30 00:20:33 - INFO - New entry found: SR-NASDAQ-2025-030
+2025-05-30 00:20:33 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-030
+2025-05-30 00:20:33 - INFO - New entry found: SR-NASDAQ-2025-029
+2025-05-30 00:20:34 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-029
+2025-05-30 00:20:34 - INFO - New entry found: SR-NASDAQ-2025-027
+2025-05-30 00:20:35 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-027
+2025-05-30 00:20:35 - INFO - New entry found: SR-NASDAQ-2025-024
+2025-05-30 00:20:36 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-024
+2025-05-30 00:20:36 - INFO - New entry found: SR-NASDAQ-2025-021
+2025-05-30 00:20:36 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-021
+2025-05-30 00:20:36 - INFO - New entry found: SR-NASDAQ-2025-019
+2025-05-30 00:20:37 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-019
+2025-05-30 00:20:37 - INFO - New entry found: SR-NASDAQ-2025-018
+2025-05-30 00:20:38 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-018
+2025-05-30 00:20:38 - INFO - New entry found: SR-NASDAQ-2025-017
+2025-05-30 00:20:38 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-017
+2025-05-30 00:20:38 - INFO - New entry found: SR-NASDAQ-2025-016
+2025-05-30 00:20:39 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-016
+2025-05-30 00:20:39 - INFO - New entry found: SR-NASDAQ-2025-015
+2025-05-30 00:20:40 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-015
+2025-05-30 00:20:40 - INFO - New entry found: SR-NASDAQ-2025-014
+2025-05-30 00:20:40 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-014
+2025-05-30 00:20:40 - INFO - New entry found: SR-NASDAQ-2025-013
+2025-05-30 00:20:41 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-013
+2025-05-30 00:20:41 - INFO - New entry found: SR-NASDAQ-2025-012
+2025-05-30 00:20:42 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-012
+2025-05-30 00:20:42 - INFO - New entry found: SR-NASDAQ-2025-011
+2025-05-30 00:20:42 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-011
+2025-05-30 00:20:42 - INFO - New entry found: SR-NASDAQ-2025-009
+2025-05-30 00:20:43 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-009
+2025-05-30 00:20:43 - INFO - New entry found: SR-NASDAQ-2025-008
+2025-05-30 00:20:44 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-008
+2025-05-30 00:20:44 - INFO - New entry found: SR-NASDAQ-2025-007
+2025-05-30 00:20:45 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-007
+2025-05-30 00:20:45 - INFO - New entry found: SR-NASDAQ-2025-006
+2025-05-30 00:20:45 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-006
+2025-05-30 00:20:45 - INFO - New entry found: SR-NASDAQ-2025-005
+2025-05-30 00:20:46 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-005
+2025-05-30 00:20:46 - INFO - New entry found: SR-NASDAQ-2025-003
+2025-05-30 00:20:47 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-003
+2025-05-30 00:20:47 - INFO - New entry found: SR-NASDAQ-2025-002
+2025-05-30 00:20:48 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-002
+2025-05-30 00:20:48 - INFO - New entry found: SR-NASDAQ-2025-001
+2025-05-30 00:20:48 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-001
+2025-05-30 00:20:48 - INFO - Processed 33 new entries
+2025-05-30 00:21:11 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:21:11 - INFO - Loaded 114 previously seen entries
+2025-05-30 00:21:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:21:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:22:14 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:22:14 - INFO - Loaded 33 previously seen entries
+2025-05-30 00:22:14 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:22:19 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:23:27 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:23:27 - INFO - Loaded 33 previously seen entries
+2025-05-30 00:23:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:23:32 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:24:21 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:24:21 - INFO - Loaded 33 previously seen entries
+2025-05-30 00:24:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:24:26 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:24:26 - INFO - No new entries found in this check
+2025-05-30 00:24:55 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:24:55 - INFO - Loaded 32 previously seen entries
+2025-05-30 00:24:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:24:59 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:24:59 - INFO - New entry found: SR-NASDAQ-2025-042
+2025-05-30 00:24:59 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-042
+2025-05-30 00:24:59 - INFO - Processed 1 new entries
+2025-05-30 00:28:21 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:28:21 - INFO - Loaded 32 previously seen entries
+2025-05-30 00:28:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:28:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:28:24 - INFO - New entry found: SR-NASDAQ-2025-002
+2025-05-30 00:28:25 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-002
+2025-05-30 00:28:25 - INFO - Processed 1 new entries
+2025-05-30 00:31:32 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:31:32 - INFO - Check interval: 1 seconds
+2025-05-30 00:31:32 - INFO - Error retry interval: 60 seconds
+2025-05-30 00:31:32 - INFO - Loaded 33 previously seen entries
+2025-05-30 00:31:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:31:37 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:31:37 - INFO - No new entries found in this check
+2025-05-30 00:31:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:31:42 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:31:42 - INFO - No new entries found in this check
+2025-05-30 00:31:43 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:31:46 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:31:46 - INFO - No new entries found in this check
+2025-05-30 00:31:47 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:31:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:31:50 - INFO - No new entries found in this check
+2025-05-30 00:31:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:31:52 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:31:52 - INFO - No new entries found in this check
+2025-05-30 00:31:53 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:31:58 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:31:58 - INFO - No new entries found in this check
+2025-05-30 00:31:59 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:01 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:01 - INFO - No new entries found in this check
+2025-05-30 00:32:02 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:03 - INFO - No new entries found in this check
+2025-05-30 00:32:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:06 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:06 - INFO - No new entries found in this check
+2025-05-30 00:32:07 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:10 - INFO - No new entries found in this check
+2025-05-30 00:32:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:13 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:13 - INFO - No new entries found in this check
+2025-05-30 00:32:14 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:18 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:18 - INFO - No new entries found in this check
+2025-05-30 00:32:19 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:21 - INFO - No new entries found in this check
+2025-05-30 00:32:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:24 - INFO - No new entries found in this check
+2025-05-30 00:32:25 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:27 - INFO - No new entries found in this check
+2025-05-30 00:32:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:31 - INFO - No new entries found in this check
+2025-05-30 00:32:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:36 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:36 - INFO - No new entries found in this check
+2025-05-30 00:32:37 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:39 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:39 - INFO - No new entries found in this check
+2025-05-30 00:32:40 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:43 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:43 - INFO - No new entries found in this check
+2025-05-30 00:32:44 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:49 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:49 - INFO - No new entries found in this check
+2025-05-30 00:32:50 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:53 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:53 - INFO - No new entries found in this check
+2025-05-30 00:32:54 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:32:56 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:32:56 - INFO - No new entries found in this check
+2025-05-30 00:32:57 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:01 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:01 - INFO - No new entries found in this check
+2025-05-30 00:33:02 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:06 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:06 - INFO - No new entries found in this check
+2025-05-30 00:33:07 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:10 - INFO - No new entries found in this check
+2025-05-30 00:33:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:15 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:15 - INFO - No new entries found in this check
+2025-05-30 00:33:16 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:19 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:19 - INFO - No new entries found in this check
+2025-05-30 00:33:20 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:24 - INFO - No new entries found in this check
+2025-05-30 00:33:25 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:29 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:29 - INFO - No new entries found in this check
+2025-05-30 00:33:30 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:35 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:35 - INFO - No new entries found in this check
+2025-05-30 00:33:36 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:41 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:41 - INFO - No new entries found in this check
+2025-05-30 00:33:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:46 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:46 - INFO - No new entries found in this check
+2025-05-30 00:33:47 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:51 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:51 - INFO - No new entries found in this check
+2025-05-30 00:33:52 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:54 - INFO - No new entries found in this check
+2025-05-30 00:33:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:33:58 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:33:58 - INFO - No new entries found in this check
+2025-05-30 00:33:59 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:01 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:01 - INFO - No new entries found in this check
+2025-05-30 00:34:02 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:08 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:08 - INFO - No new entries found in this check
+2025-05-30 00:34:09 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:13 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:13 - INFO - No new entries found in this check
+2025-05-30 00:34:14 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:16 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:16 - INFO - No new entries found in this check
+2025-05-30 00:34:17 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:21 - INFO - No new entries found in this check
+2025-05-30 00:34:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:26 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:26 - INFO - No new entries found in this check
+2025-05-30 00:34:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:31 - INFO - No new entries found in this check
+2025-05-30 00:34:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:35 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:35 - INFO - No new entries found in this check
+2025-05-30 00:34:36 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:41 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:41 - INFO - No new entries found in this check
+2025-05-30 00:34:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:45 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:45 - INFO - No new entries found in this check
+2025-05-30 00:34:46 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:50 - INFO - No new entries found in this check
+2025-05-30 00:34:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:55 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:55 - INFO - No new entries found in this check
+2025-05-30 00:34:56 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:34:59 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:34:59 - INFO - No new entries found in this check
+2025-05-30 00:35:00 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:02 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:02 - INFO - No new entries found in this check
+2025-05-30 00:35:03 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:07 - INFO - No new entries found in this check
+2025-05-30 00:35:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:11 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:11 - INFO - No new entries found in this check
+2025-05-30 00:35:12 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:14 - INFO - No new entries found in this check
+2025-05-30 00:35:15 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:17 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:17 - INFO - No new entries found in this check
+2025-05-30 00:35:18 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:23 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:23 - INFO - No new entries found in this check
+2025-05-30 00:35:24 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:27 - INFO - No new entries found in this check
+2025-05-30 00:35:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:31 - INFO - No new entries found in this check
+2025-05-30 00:35:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:36 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:36 - INFO - No new entries found in this check
+2025-05-30 00:35:37 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:41 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:41 - INFO - No new entries found in this check
+2025-05-30 00:35:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:47 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:47 - INFO - No new entries found in this check
+2025-05-30 00:35:48 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:51 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:51 - INFO - No new entries found in this check
+2025-05-30 00:35:52 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:54 - INFO - No new entries found in this check
+2025-05-30 00:35:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:35:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:35:57 - INFO - No new entries found in this check
+2025-05-30 00:35:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:00 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:00 - INFO - No new entries found in this check
+2025-05-30 00:36:01 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:05 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:05 - INFO - No new entries found in this check
+2025-05-30 00:36:06 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:09 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:09 - INFO - No new entries found in this check
+2025-05-30 00:36:10 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:15 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:15 - INFO - No new entries found in this check
+2025-05-30 00:36:16 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:20 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:20 - INFO - No new entries found in this check
+2025-05-30 00:36:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:23 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:23 - INFO - No new entries found in this check
+2025-05-30 00:36:24 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:27 - INFO - No new entries found in this check
+2025-05-30 00:36:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:31 - INFO - No new entries found in this check
+2025-05-30 00:36:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:37 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:37 - INFO - No new entries found in this check
+2025-05-30 00:36:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:40 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:40 - INFO - No new entries found in this check
+2025-05-30 00:36:41 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:45 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:45 - INFO - No new entries found in this check
+2025-05-30 00:36:46 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:50 - INFO - No new entries found in this check
+2025-05-30 00:36:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:54 - INFO - No new entries found in this check
+2025-05-30 00:36:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:36:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:36:57 - INFO - No new entries found in this check
+2025-05-30 00:36:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:02 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:02 - INFO - No new entries found in this check
+2025-05-30 00:37:03 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:07 - INFO - No new entries found in this check
+2025-05-30 00:37:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:10 - INFO - No new entries found in this check
+2025-05-30 00:37:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:13 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:13 - INFO - No new entries found in this check
+2025-05-30 00:37:14 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:19 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:19 - INFO - No new entries found in this check
+2025-05-30 00:37:20 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:23 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:23 - INFO - No new entries found in this check
+2025-05-30 00:37:24 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:27 - INFO - No new entries found in this check
+2025-05-30 00:37:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:31 - INFO - No new entries found in this check
+2025-05-30 00:37:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:35 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:35 - INFO - No new entries found in this check
+2025-05-30 00:37:36 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:39 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:39 - INFO - No new entries found in this check
+2025-05-30 00:37:40 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:44 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:44 - INFO - No new entries found in this check
+2025-05-30 00:37:45 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:49 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:49 - INFO - No new entries found in this check
+2025-05-30 00:37:50 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:53 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:53 - INFO - No new entries found in this check
+2025-05-30 00:37:54 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:37:59 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:37:59 - INFO - No new entries found in this check
+2025-05-30 00:38:00 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:04 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:04 - INFO - No new entries found in this check
+2025-05-30 00:38:05 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:07 - INFO - No new entries found in this check
+2025-05-30 00:38:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:12 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:12 - INFO - No new entries found in this check
+2025-05-30 00:38:13 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:16 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:16 - INFO - No new entries found in this check
+2025-05-30 00:38:17 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:21 - INFO - No new entries found in this check
+2025-05-30 00:38:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:25 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:25 - INFO - No new entries found in this check
+2025-05-30 00:38:26 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:30 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:30 - INFO - No new entries found in this check
+2025-05-30 00:38:31 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:34 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:34 - INFO - No new entries found in this check
+2025-05-30 00:38:35 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:38 - INFO - Starting Nasdaq rule filings monitor...
+2025-05-30 00:38:38 - INFO - Check interval: 1 seconds
+2025-05-30 00:38:38 - INFO - Error retry interval: 60 seconds
+2025-05-30 00:38:38 - INFO - Loaded 32 previously seen entries
+2025-05-30 00:38:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:40 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:40 - INFO - New entry found: SR-NASDAQ-2025-042
+2025-05-30 00:38:41 - INFO - Successfully sent message to Discord: SR-NASDAQ-2025-042
+2025-05-30 00:38:41 - INFO - Processed 1 new entries
+2025-05-30 00:38:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:44 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:44 - INFO - No new entries found in this check
+2025-05-30 00:38:45 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:50 - INFO - No new entries found in this check
+2025-05-30 00:38:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:54 - INFO - No new entries found in this check
+2025-05-30 00:38:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:38:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:38:57 - INFO - No new entries found in this check
+2025-05-30 00:38:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:03 - INFO - No new entries found in this check
+2025-05-30 00:39:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:08 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:08 - INFO - No new entries found in this check
+2025-05-30 00:39:09 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:12 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:12 - INFO - No new entries found in this check
+2025-05-30 00:39:13 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:17 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:17 - INFO - No new entries found in this check
+2025-05-30 00:39:18 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:21 - INFO - No new entries found in this check
+2025-05-30 00:39:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:26 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:26 - INFO - No new entries found in this check
+2025-05-30 00:39:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:31 - INFO - No new entries found in this check
+2025-05-30 00:39:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:37 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:37 - INFO - No new entries found in this check
+2025-05-30 00:39:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:40 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:40 - INFO - No new entries found in this check
+2025-05-30 00:39:41 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:45 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:45 - INFO - No new entries found in this check
+2025-05-30 00:39:46 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:48 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:48 - INFO - No new entries found in this check
+2025-05-30 00:39:49 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:53 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:53 - INFO - No new entries found in this check
+2025-05-30 00:39:54 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:39:58 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:39:58 - INFO - No new entries found in this check
+2025-05-30 00:39:59 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:03 - INFO - No new entries found in this check
+2025-05-30 00:40:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:08 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:08 - INFO - No new entries found in this check
+2025-05-30 00:40:09 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:13 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:13 - INFO - No new entries found in this check
+2025-05-30 00:40:14 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:18 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:18 - INFO - No new entries found in this check
+2025-05-30 00:40:19 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:21 - INFO - No new entries found in this check
+2025-05-30 00:40:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:26 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:26 - INFO - No new entries found in this check
+2025-05-30 00:40:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:30 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:30 - INFO - No new entries found in this check
+2025-05-30 00:40:31 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:35 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:35 - INFO - No new entries found in this check
+2025-05-30 00:40:36 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:38 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:38 - INFO - No new entries found in this check
+2025-05-30 00:40:39 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:41 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:41 - INFO - No new entries found in this check
+2025-05-30 00:40:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:46 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:46 - INFO - No new entries found in this check
+2025-05-30 00:40:47 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:52 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:52 - INFO - No new entries found in this check
+2025-05-30 00:40:53 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:40:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:40:57 - INFO - No new entries found in this check
+2025-05-30 00:40:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:00 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:00 - INFO - No new entries found in this check
+2025-05-30 00:41:01 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:03 - INFO - No new entries found in this check
+2025-05-30 00:41:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:06 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:06 - INFO - No new entries found in this check
+2025-05-30 00:41:07 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:10 - INFO - No new entries found in this check
+2025-05-30 00:41:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:15 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:15 - INFO - No new entries found in this check
+2025-05-30 00:41:16 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:20 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:20 - INFO - No new entries found in this check
+2025-05-30 00:41:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:25 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:25 - INFO - No new entries found in this check
+2025-05-30 00:41:26 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:29 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:29 - INFO - No new entries found in this check
+2025-05-30 00:41:30 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:35 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:35 - INFO - No new entries found in this check
+2025-05-30 00:41:36 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:38 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:38 - INFO - No new entries found in this check
+2025-05-30 00:41:39 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:42 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:42 - INFO - No new entries found in this check
+2025-05-30 00:41:43 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:44 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:44 - INFO - No new entries found in this check
+2025-05-30 00:41:45 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:49 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:49 - INFO - No new entries found in this check
+2025-05-30 00:41:50 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:54 - INFO - No new entries found in this check
+2025-05-30 00:41:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:41:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:41:57 - INFO - No new entries found in this check
+2025-05-30 00:41:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:03 - INFO - No new entries found in this check
+2025-05-30 00:42:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:07 - INFO - No new entries found in this check
+2025-05-30 00:42:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:11 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:11 - INFO - No new entries found in this check
+2025-05-30 00:42:12 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:14 - INFO - No new entries found in this check
+2025-05-30 00:42:15 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:17 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:17 - INFO - No new entries found in this check
+2025-05-30 00:42:18 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:22 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:22 - INFO - No new entries found in this check
+2025-05-30 00:42:23 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:24 - INFO - No new entries found in this check
+2025-05-30 00:42:25 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:27 - INFO - No new entries found in this check
+2025-05-30 00:42:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:31 - INFO - No new entries found in this check
+2025-05-30 00:42:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:34 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:34 - INFO - No new entries found in this check
+2025-05-30 00:42:35 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:40 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:40 - INFO - No new entries found in this check
+2025-05-30 00:42:41 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:45 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:45 - INFO - No new entries found in this check
+2025-05-30 00:42:46 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:50 - INFO - No new entries found in this check
+2025-05-30 00:42:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:55 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:55 - INFO - No new entries found in this check
+2025-05-30 00:42:56 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:42:59 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:42:59 - INFO - No new entries found in this check
+2025-05-30 00:43:00 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:03 - INFO - No new entries found in this check
+2025-05-30 00:43:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:09 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:09 - INFO - No new entries found in this check
+2025-05-30 00:43:10 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:13 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:13 - INFO - No new entries found in this check
+2025-05-30 00:43:14 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:17 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:17 - INFO - No new entries found in this check
+2025-05-30 00:43:18 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:19 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:19 - INFO - No new entries found in this check
+2025-05-30 00:43:20 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:22 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:22 - INFO - No new entries found in this check
+2025-05-30 00:43:23 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:25 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:25 - INFO - No new entries found in this check
+2025-05-30 00:43:26 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:30 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:30 - INFO - No new entries found in this check
+2025-05-30 00:43:31 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:34 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:34 - INFO - No new entries found in this check
+2025-05-30 00:43:35 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:37 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:37 - INFO - No new entries found in this check
+2025-05-30 00:43:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:42 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:42 - INFO - No new entries found in this check
+2025-05-30 00:43:43 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:46 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:46 - INFO - No new entries found in this check
+2025-05-30 00:43:47 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:51 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:51 - INFO - No new entries found in this check
+2025-05-30 00:43:52 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:54 - INFO - No new entries found in this check
+2025-05-30 00:43:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:43:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:43:57 - INFO - No new entries found in this check
+2025-05-30 00:43:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:00 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:00 - INFO - No new entries found in this check
+2025-05-30 00:44:01 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:03 - INFO - No new entries found in this check
+2025-05-30 00:44:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:08 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:08 - INFO - No new entries found in this check
+2025-05-30 00:44:09 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:14 - INFO - No new entries found in this check
+2025-05-30 00:44:15 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:20 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:20 - INFO - No new entries found in this check
+2025-05-30 00:44:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:24 - INFO - No new entries found in this check
+2025-05-30 00:44:25 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:29 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:29 - INFO - No new entries found in this check
+2025-05-30 00:44:30 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:35 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:35 - INFO - No new entries found in this check
+2025-05-30 00:44:36 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:38 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:38 - INFO - No new entries found in this check
+2025-05-30 00:44:39 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:42 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:42 - INFO - No new entries found in this check
+2025-05-30 00:44:43 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:46 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:46 - INFO - No new entries found in this check
+2025-05-30 00:44:47 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:49 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:49 - INFO - No new entries found in this check
+2025-05-30 00:44:50 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:52 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:52 - INFO - No new entries found in this check
+2025-05-30 00:44:53 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:44:57 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:44:57 - INFO - No new entries found in this check
+2025-05-30 00:44:58 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:02 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:02 - INFO - No new entries found in this check
+2025-05-30 00:45:03 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:06 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:06 - INFO - No new entries found in this check
+2025-05-30 00:45:07 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:10 - INFO - No new entries found in this check
+2025-05-30 00:45:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:14 - INFO - No new entries found in this check
+2025-05-30 00:45:15 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:16 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:16 - INFO - No new entries found in this check
+2025-05-30 00:45:17 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:20 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:20 - INFO - No new entries found in this check
+2025-05-30 00:45:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:25 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:25 - INFO - No new entries found in this check
+2025-05-30 00:45:26 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:28 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:28 - INFO - No new entries found in this check
+2025-05-30 00:45:29 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:32 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:32 - INFO - No new entries found in this check
+2025-05-30 00:45:33 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:38 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:38 - INFO - No new entries found in this check
+2025-05-30 00:45:39 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:41 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:41 - INFO - No new entries found in this check
+2025-05-30 00:45:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:44 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:44 - INFO - No new entries found in this check
+2025-05-30 00:45:45 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:49 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:49 - INFO - No new entries found in this check
+2025-05-30 00:45:50 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:52 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:52 - INFO - No new entries found in this check
+2025-05-30 00:45:53 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:45:58 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:45:58 - INFO - No new entries found in this check
+2025-05-30 00:45:59 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:03 - INFO - No new entries found in this check
+2025-05-30 00:46:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:07 - INFO - No new entries found in this check
+2025-05-30 00:46:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:10 - INFO - No new entries found in this check
+2025-05-30 00:46:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:14 - INFO - No new entries found in this check
+2025-05-30 00:46:15 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:17 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:17 - INFO - No new entries found in this check
+2025-05-30 00:46:18 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:23 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:23 - INFO - No new entries found in this check
+2025-05-30 00:46:24 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:26 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:26 - INFO - No new entries found in this check
+2025-05-30 00:46:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:31 - INFO - No new entries found in this check
+2025-05-30 00:46:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:37 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:37 - INFO - No new entries found in this check
+2025-05-30 00:46:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:40 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:40 - INFO - No new entries found in this check
+2025-05-30 00:46:41 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:43 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:43 - INFO - No new entries found in this check
+2025-05-30 00:46:44 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:47 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:47 - INFO - No new entries found in this check
+2025-05-30 00:46:48 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:51 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:51 - INFO - No new entries found in this check
+2025-05-30 00:46:52 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:54 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:54 - INFO - No new entries found in this check
+2025-05-30 00:46:55 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:46:59 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:46:59 - INFO - No new entries found in this check
+2025-05-30 00:47:00 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:04 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:04 - INFO - No new entries found in this check
+2025-05-30 00:47:05 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:08 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:08 - INFO - No new entries found in this check
+2025-05-30 00:47:09 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:12 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:12 - INFO - No new entries found in this check
+2025-05-30 00:47:13 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:15 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:15 - INFO - No new entries found in this check
+2025-05-30 00:47:16 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:20 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:20 - INFO - No new entries found in this check
+2025-05-30 00:47:21 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:26 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:26 - INFO - No new entries found in this check
+2025-05-30 00:47:27 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:32 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:32 - INFO - No new entries found in this check
+2025-05-30 00:47:33 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:36 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:36 - INFO - No new entries found in this check
+2025-05-30 00:47:37 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:41 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:41 - INFO - No new entries found in this check
+2025-05-30 00:47:42 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:45 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:45 - INFO - No new entries found in this check
+2025-05-30 00:47:46 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:50 - INFO - No new entries found in this check
+2025-05-30 00:47:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:47:56 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:47:56 - INFO - No new entries found in this check
+2025-05-30 00:47:57 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:02 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:02 - INFO - No new entries found in this check
+2025-05-30 00:48:03 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:05 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:05 - INFO - No new entries found in this check
+2025-05-30 00:48:06 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:10 - INFO - No new entries found in this check
+2025-05-30 00:48:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:15 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:15 - INFO - No new entries found in this check
+2025-05-30 00:48:16 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:18 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:18 - INFO - No new entries found in this check
+2025-05-30 00:48:19 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:22 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:22 - INFO - No new entries found in this check
+2025-05-30 00:48:23 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:27 - INFO - No new entries found in this check
+2025-05-30 00:48:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:30 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:30 - INFO - No new entries found in this check
+2025-05-30 00:48:31 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:34 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:34 - INFO - No new entries found in this check
+2025-05-30 00:48:35 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:37 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:37 - INFO - No new entries found in this check
+2025-05-30 00:48:38 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:42 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:42 - INFO - No new entries found in this check
+2025-05-30 00:48:43 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:46 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:46 - INFO - No new entries found in this check
+2025-05-30 00:48:47 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:51 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:51 - INFO - No new entries found in this check
+2025-05-30 00:48:52 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:53 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:53 - INFO - No new entries found in this check
+2025-05-30 00:48:54 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:48:58 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:48:58 - INFO - No new entries found in this check
+2025-05-30 00:48:59 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:03 - INFO - No new entries found in this check
+2025-05-30 00:49:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:07 - INFO - No new entries found in this check
+2025-05-30 00:49:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:10 - INFO - No new entries found in this check
+2025-05-30 00:49:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:14 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:14 - INFO - No new entries found in this check
+2025-05-30 00:49:15 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:18 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:18 - INFO - No new entries found in this check
+2025-05-30 00:49:19 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:21 - INFO - No new entries found in this check
+2025-05-30 00:49:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:27 - INFO - No new entries found in this check
+2025-05-30 00:49:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:33 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:33 - INFO - No new entries found in this check
+2025-05-30 00:49:34 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:38 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:38 - INFO - No new entries found in this check
+2025-05-30 00:49:39 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:43 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:43 - INFO - No new entries found in this check
+2025-05-30 00:49:44 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:47 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:47 - INFO - No new entries found in this check
+2025-05-30 00:49:48 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:50 - INFO - No new entries found in this check
+2025-05-30 00:49:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:49:55 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:49:55 - INFO - No new entries found in this check
+2025-05-30 00:49:56 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:01 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:01 - INFO - No new entries found in this check
+2025-05-30 00:50:02 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:07 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:07 - INFO - No new entries found in this check
+2025-05-30 00:50:08 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:10 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:10 - INFO - No new entries found in this check
+2025-05-30 00:50:11 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:15 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:15 - INFO - No new entries found in this check
+2025-05-30 00:50:16 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:19 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:19 - INFO - No new entries found in this check
+2025-05-30 00:50:20 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:24 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:24 - INFO - No new entries found in this check
+2025-05-30 00:50:25 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:27 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:27 - INFO - No new entries found in this check
+2025-05-30 00:50:28 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:31 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:31 - INFO - No new entries found in this check
+2025-05-30 00:50:32 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:36 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:36 - INFO - No new entries found in this check
+2025-05-30 00:50:37 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:39 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:39 - INFO - No new entries found in this check
+2025-05-30 00:50:40 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:42 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:42 - INFO - No new entries found in this check
+2025-05-30 00:50:43 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:45 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:45 - INFO - No new entries found in this check
+2025-05-30 00:50:46 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:50 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:50 - INFO - No new entries found in this check
+2025-05-30 00:50:51 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:55 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:55 - INFO - No new entries found in this check
+2025-05-30 00:50:56 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:50:58 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:50:58 - INFO - No new entries found in this check
+2025-05-30 00:50:59 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:03 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:03 - INFO - No new entries found in this check
+2025-05-30 00:51:04 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:08 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:08 - INFO - No new entries found in this check
+2025-05-30 00:51:09 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:12 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:12 - INFO - No new entries found in this check
+2025-05-30 00:51:13 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:17 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:17 - INFO - No new entries found in this check
+2025-05-30 00:51:18 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:21 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:21 - INFO - No new entries found in this check
+2025-05-30 00:51:22 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:25 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:25 - INFO - No new entries found in this check
+2025-05-30 00:51:26 - INFO - Fetching data from https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings
+2025-05-30 00:51:28 - INFO - Successfully scraped 33 entries from Nasdaq
+2025-05-30 00:51:28 - INFO - No new entries found in this check
