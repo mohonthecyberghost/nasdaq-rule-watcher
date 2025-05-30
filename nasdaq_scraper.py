@@ -58,8 +58,8 @@ DISCORD_WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK_URL')
 NASDAQ_URL = os.getenv('NASDAQ_URL', 'https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings')
 CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '1'))  # Default to 1 second
 ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '60'))  # Default to 60 seconds
-REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '30'))  # Default to 30 seconds
-MAX_RETRIES = int(os.getenv('MAX_RETRIES', '3'))  # Default to 3 retries
+REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '10'))  # Default to 30 seconds
+MAX_RETRIES = int(os.getenv('MAX_RETRIES', '30'))  # Default to 3 retries
 
 # File to store seen entries
 SEEN_ENTRIES_FILE = 'seen_entries.json'
