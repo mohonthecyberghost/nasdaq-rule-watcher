@@ -7,6 +7,11 @@ import os
 from dotenv import load_dotenv
 import logging
 from logging.handlers import RotatingFileHandler
+import gc
+import signal
+import sys
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Configure logging
 def setup_logging():
@@ -52,10 +57,39 @@ load_dotenv()
 DISCORD_WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK_URL')
 NASDAQ_URL = os.getenv('NASDAQ_URL', 'https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings')
 CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '1'))  # Default to 1 second
-ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '4'))  # Default to 60 seconds
+ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '60'))  # Default to 60 seconds
+REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '30'))  # Default to 30 seconds
+MAX_RETRIES = int(os.getenv('MAX_RETRIES', '3'))  # Default to 3 retries
 
 # File to store seen entries
 SEEN_ENTRIES_FILE = 'seen_entries.json'
+
+# Configure requests session with retry strategy
+def create_session():
+    """Create a requests session with retry strategy."""
+    session = requests.Session()
+    retry_strategy = Retry(
+        total=MAX_RETRIES,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504]
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
+# Global session
+session = create_session()
+
+def signal_handler(signum, frame):
+    """Handle termination signals gracefully."""
+    logger.info("Received termination signal. Cleaning up...")
+    session.close()
+    sys.exit(0)
+
+# Register signal handlers
+signal.signal(signal.SIGTERM, signal_handler)
+signal.signal(signal.SIGINT, signal_handler)
 
 def load_seen_entries():
     """Load previously seen entries from file."""
@@ -103,7 +137,7 @@ def send_to_discord(rule_filing, description, status, sec_notice, comment_period
     }
     
     try:
-        response = requests.post(DISCORD_WEBHOOK_URL, json=payload)
+        response = session.post(DISCORD_WEBHOOK_URL, json=payload, timeout=REQUEST_TIMEOUT)
         response.raise_for_status()
         logger.info(f"Successfully sent message to Discord: {rule_filing}")
         return True
@@ -115,7 +149,7 @@ def scrape_nasdaq():
     """Scrape the Nasdaq rule filings page."""
     try:
         logger.info(f"Fetching data from {NASDAQ_URL}")
-        response = requests.get(NASDAQ_URL)
+        response = session.get(NASDAQ_URL, timeout=REQUEST_TIMEOUT)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -173,9 +207,14 @@ def main():
     logger.info("Starting Nasdaq rule filings monitor...")
     logger.info(f"Check interval: {CHECK_INTERVAL} seconds")
     logger.info(f"Error retry interval: {ERROR_RETRY_INTERVAL} seconds")
+    logger.info(f"Request timeout: {REQUEST_TIMEOUT} seconds")
+    logger.info(f"Max retries: {MAX_RETRIES}")
     
     seen_entries = load_seen_entries()
     logger.info(f"Loaded {len(seen_entries)} previously seen entries")
+    
+    consecutive_errors = 0
+    max_consecutive_errors = 5
     
     while True:
         try:
@@ -208,14 +247,29 @@ def main():
             else:
                 logger.info("No new entries found in this check")
             
+            # Reset consecutive errors counter on success
+            consecutive_errors = 0
+            
+            # Force garbage collection
+            gc.collect()
+            
             # Wait before next check
             logger.debug(f"Waiting {CHECK_INTERVAL} seconds before next check...")
             time.sleep(CHECK_INTERVAL)
             
         except Exception as e:
+            consecutive_errors += 1
             logger.error(f"Error in main loop: {e}")
+            
+            if consecutive_errors >= max_consecutive_errors:
+                logger.error(f"Too many consecutive errors ({consecutive_errors}). Restarting session...")
+                global session
+                session.close()
+                session = create_session()
+                consecutive_errors = 0
+            
             logger.info(f"Waiting {ERROR_RETRY_INTERVAL} seconds before retrying...")
-            time.sleep(ERROR_RETRY_INTERVAL)  # Wait before retrying
+            time.sleep(ERROR_RETRY_INTERVAL)
 
 if __name__ == "__main__":
     main() 
