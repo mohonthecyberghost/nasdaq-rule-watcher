@@ -51,8 +51,8 @@ load_dotenv()
 # Configuration from environment variables
 DISCORD_WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK_URL')
 NASDAQ_URL = os.getenv('NASDAQ_URL', 'https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings')
-CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '1'))  # Default to 1 second
-ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '60'))  # Default to 60 seconds
+CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '0.5'))  # Default to 1 second
+ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '4'))  # Default to 60 seconds
 
 # File to store seen entries
 SEEN_ENTRIES_FILE = 'seen_entries.json'
