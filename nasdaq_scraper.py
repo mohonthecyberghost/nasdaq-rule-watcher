@@ -95,8 +95,7 @@ def create_session():
     retry_strategy = Retry(
         total=MAX_RETRIES,
         backoff_factor=0.5,  # Reduced backoff factor for faster retries
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["GET", "POST"]  # Allow retries on both GET and POST
+        status_forcelist=[429, 500, 502, 503, 504]
     )
     adapter = HTTPAdapter(max_retries=retry_strategy, pool_connections=10, pool_maxsize=10)
     session.mount("http://", adapter)
