@@ -12,6 +12,8 @@ import signal
 import sys
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import hashlib
+from functools import lru_cache
 
 # Configure logging
 def setup_logging():
@@ -56,30 +58,148 @@ load_dotenv()
 # Configuration from environment variables
 DISCORD_WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK_URL')
 NASDAQ_URL = os.getenv('NASDAQ_URL', 'https://listingcenter.nasdaq.com/rulebook/nasdaq/rulefilings')
-CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '1'))  # Default to 1 second
-ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '60'))  # Default to 60 seconds
-REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '10'))  # Default to 30 seconds
-MAX_RETRIES = int(os.getenv('MAX_RETRIES', '30'))  # Default to 3 retries
+CHECK_INTERVAL = float(os.getenv('CHECK_INTERVAL', '0.5'))  # Default to 0.5 seconds (500ms)
+ERROR_RETRY_INTERVAL = int(os.getenv('ERROR_RETRY_INTERVAL', '30'))  # Default to 30 seconds
+REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '10'))  # Default to 10 seconds
+MAX_RETRIES = int(os.getenv('MAX_RETRIES', '3'))  # Default to 3 retries
+CACHE_DURATION = float(os.getenv('CACHE_DURATION', '0.5'))  # Default to 0.5 seconds cache
+RATE_LIMIT_WINDOW = int(os.getenv('RATE_LIMIT_WINDOW', '60'))  # Default to 60 seconds
+MAX_REQUESTS_PER_WINDOW = int(os.getenv('MAX_REQUESTS_PER_WINDOW', '120'))  # Default to 120 requests per minute
 
 # File to store seen entries
 SEEN_ENTRIES_FILE = 'seen_entries.json'
 
-# Configure requests session with retry strategy
+# Rate limiting tracking
+request_timestamps = []
+
+def is_rate_limited():
+    """Check if we're currently rate limited."""
+    global request_timestamps
+    current_time = time.time()
+    
+    # Remove timestamps older than the rate limit window
+    request_timestamps = [ts for ts in request_timestamps if current_time - ts < RATE_LIMIT_WINDOW]
+    
+    # Check if we've exceeded the rate limit
+    if len(request_timestamps) >= MAX_REQUESTS_PER_WINDOW:
+        return True
+    
+    # Add current timestamp
+    request_timestamps.append(current_time)
+    return False
+
+# Configure requests session with optimized retry strategy
 def create_session():
-    """Create a requests session with retry strategy."""
+    """Create a requests session with optimized retry strategy."""
     session = requests.Session()
     retry_strategy = Retry(
         total=MAX_RETRIES,
-        backoff_factor=1,
-        status_forcelist=[429, 500, 502, 503, 504]
+        backoff_factor=0.5,  # Reduced backoff factor for faster retries
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET", "POST"]  # Allow retries on both GET and POST
     )
-    adapter = HTTPAdapter(max_retries=retry_strategy)
+    adapter = HTTPAdapter(max_retries=retry_strategy, pool_connections=10, pool_maxsize=10)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
     return session
 
 # Global session
 session = create_session()
+
+# Cache for storing page content
+page_cache = {
+    'content': None,
+    'timestamp': 0,
+    'hash': None
+}
+
+def get_page_hash(content):
+    """Generate a hash of the page content for change detection."""
+    return hashlib.md5(content.encode()).hexdigest()
+
+@lru_cache(maxsize=100)
+def parse_table_row(row):
+    """Parse a table row with caching for better performance."""
+    cells = row.find_all('td')
+    if len(cells) < 6:
+        return None
+        
+    rule_filing_cell = cells[0]
+    rule_filing_id = rule_filing_cell.find('a').text.strip() if rule_filing_cell.find('a') else ''
+    
+    if not rule_filing_id:
+        return None
+        
+    return {
+        'Rule Filing': rule_filing_id,
+        'Description': cells[1].text.strip(),
+        'Status': cells[2].text.strip(),
+        'Noticed by the SEC for Comment': cells[3].text.strip(),
+        'Expiration of the SEC Comment Period': cells[4].text.strip(),
+        'Federal Register Notice Date': cells[5].text.strip()
+    }
+
+def scrape_nasdaq():
+    """Scrape the Nasdaq rule filings page with caching."""
+    global page_cache
+    
+    current_time = time.time()
+    
+    # Check if cache is still valid
+    if (page_cache['content'] is not None and 
+        current_time - page_cache['timestamp'] < CACHE_DURATION):
+        logger.debug("Using cached content")
+        return page_cache['content']
+    
+    # Check rate limiting
+    if is_rate_limited():
+        logger.warning("Rate limit reached, using cached content")
+        return page_cache['content'] if page_cache['content'] is not None else []
+    
+    try:
+        logger.info(f"Fetching data from {NASDAQ_URL}")
+        response = session.get(NASDAQ_URL, timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
+        
+        # Check if content has changed
+        content_hash = get_page_hash(response.text)
+        if content_hash == page_cache['hash']:
+            logger.debug("Content unchanged, using cache")
+            return page_cache['content']
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Find the table inside the tab content div
+        tab_content = soup.find('div', {'id': 'NASDAQ-tab-2025', 'class': 'tab-content'})
+        if not tab_content:
+            logger.error("Could not find the NASDAQ tab content")
+            return []
+            
+        table = tab_content.find('table', {'width': '100%'})
+        if not table:
+            logger.error("Could not find the rule filings table")
+            return []
+            
+        rows = table.find_all('tr')[1:]  # Skip header row
+        entries = []
+        
+        for row in rows:
+            entry = parse_table_row(row)
+            if entry:
+                entries.append(entry)
+        
+        # Update cache
+        page_cache = {
+            'content': entries,
+            'timestamp': current_time,
+            'hash': content_hash
+        }
+        
+        logger.info(f"Successfully scraped {len(entries)} entries from Nasdaq")
+        return entries
+    except Exception as e:
+        logger.error(f"Error scraping Nasdaq: {e}")
+        return []
 
 def signal_handler(signum, frame):
     """Handle termination signals gracefully."""
@@ -145,63 +265,6 @@ def send_to_discord(rule_filing, description, status, sec_notice, comment_period
         logger.error(f"Error sending to Discord: {e}")
         return False
 
-def scrape_nasdaq():
-    """Scrape the Nasdaq rule filings page."""
-    try:
-        logger.info(f"Fetching data from {NASDAQ_URL}")
-        response = session.get(NASDAQ_URL, timeout=REQUEST_TIMEOUT)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Find the table inside the tab content div
-        tab_content = soup.find('div', {'id': 'NASDAQ-tab-2025', 'class': 'tab-content'})
-        if not tab_content:
-            logger.error("Could not find the NASDAQ tab content")
-            return []
-            
-        table = tab_content.find('table', {'width': '100%'})
-        if not table:
-            logger.error("Could not find the rule filings table")
-            return []
-            
-        rows = table.find_all('tr')[1:]  # Skip header row
-        entries = []
-        
-        for row in rows:
-            # Get all cells in the row
-            cells = row.find_all('td')
-            if len(cells) < 6:  # Skip if not enough cells
-                continue
-                
-            # Extract rule filing ID from the first cell
-            rule_filing_cell = cells[0]
-            rule_filing_id = rule_filing_cell.find('a').text.strip() if rule_filing_cell.find('a') else ''
-            
-            # Get other fields
-            description = cells[1].text.strip()
-            status = cells[2].text.strip()
-            sec_notice = cells[3].text.strip()
-            comment_period = cells[4].text.strip()
-            notice_date = cells[5].text.strip()
-            
-            if rule_filing_id and description:
-                entry_data = {
-                    'Rule Filing': rule_filing_id,
-                    'Description': description,
-                    'Status': status,
-                    'Noticed by the SEC for Comment': sec_notice,
-                    'Expiration of the SEC Comment Period': comment_period,
-                    'Federal Register Notice Date': notice_date
-                }
-                entries.append(entry_data)
-        
-        logger.info(f"Successfully scraped {len(entries)} entries from Nasdaq")
-        return entries
-    except Exception as e:
-        logger.error(f"Error scraping Nasdaq: {e}")
-        return []
-
 def main():
     """Main function to monitor Nasdaq rule filings."""
     logger.info("Starting Nasdaq rule filings monitor...")
@@ -209,6 +272,7 @@ def main():
     logger.info(f"Error retry interval: {ERROR_RETRY_INTERVAL} seconds")
     logger.info(f"Request timeout: {REQUEST_TIMEOUT} seconds")
     logger.info(f"Max retries: {MAX_RETRIES}")
+    logger.info(f"Rate limit: {MAX_REQUESTS_PER_WINDOW} requests per {RATE_LIMIT_WINDOW} seconds")
     
     seen_entries = load_seen_entries()
     logger.info(f"Loaded {len(seen_entries)} previously seen entries")
@@ -245,7 +309,7 @@ def main():
             if new_entries_count > 0:
                 logger.info(f"Processed {new_entries_count} new entries")
             else:
-                logger.info("No new entries found in this check")
+                logger.debug("No new entries found in this check")
             
             # Reset consecutive errors counter on success
             consecutive_errors = 0
@@ -254,7 +318,6 @@ def main():
             gc.collect()
             
             # Wait before next check
-            logger.debug(f"Waiting {CHECK_INTERVAL} seconds before next check...")
             time.sleep(CHECK_INTERVAL)
             
         except Exception as e:
